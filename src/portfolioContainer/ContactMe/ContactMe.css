@@ -1,0 +1,77 @@
+.contactMe-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  
+}
+.contactMe-parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+
+.contactMe-parent h1 {
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #391ae7;
+  }
+
+  .contactMe-parent  h6 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #391ae7;
+  }
+  form  {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    text-align: left;
+    justify-content: left; 
+    border-radius: 10%;
+    border: 1px solid black ;
+    box-shadow: 1px 1px 10px 10px #797785;
+    
+    margin:25px auto;
+    padding: 5% 5%;
+
+  }
+  textarea{
+    border-radius: 5%;
+    height: 100%;
+    font-size: 20px;
+    border: 1px solid #797785;
+    margin-top: 5px;
+    background-color: #dcd9e9;
+    padding: 5px 5px;
+    font-family: "Poppins";
+  }
+  form input {
+    font-family: "Poppins";
+    font-size: 20px;
+    background-color: #dcd9e9;
+    border-radius: 5%;
+    border: 1px solid #797785;
+    margin-top: 5px;
+    padding: 5px 5px;
+  }
+  .highlited-button{
+    
+    margin-top: 25px;
+    background-color: #391ae7;
+  }
+  .highlited-button:hover{
+    
+    background-color:#5d60fe;
+    cursor: pointer;
+  }

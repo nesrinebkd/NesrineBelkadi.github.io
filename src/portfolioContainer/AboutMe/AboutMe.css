@@ -1,0 +1,117 @@
+.aboutMe-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ margin: 5px  200px 5px 200px;
+}
+.aboutMe-parent{
+    display: flex;
+   flex-direction: column;
+ align-items: center;
+ text-align: center;
+ justify-content: center;
+ margin: 30px 0 20px 0px;
+}
+.aboutMe-parent h1{
+    font-size: 50px;
+    color: #391ae7;
+}
+.aboutMe-parent h6{
+    padding-bottom: 25px;
+    border-bottom: 2px solid #391ae7;
+}
+.aboutMe-details{
+    display: flex;
+   flex-direction: row;
+ border-radius: 1%;
+ border-style: hidden;
+ box-shadow: 0px 0px 10px 10px ;
+ border-color: #391ae7;
+ 
+}
+.aboutMe-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+}
+.aboutMe-profile p{
+    
+    padding-top: 50px;
+    margin-bottom: 100px;
+    justify-content: left;
+    font-size: 15px;
+    font-family:  Arial, sans-serif;
+}
+.aboutMe-profile h3{
+    padding-left: 10px;
+    margin-bottom: 5px;
+    justify-content: center;
+    font-family:  Arial, sans-serif;
+    color: #391ae7;
+}
+.aboutMe-profile ul{
+    padding-left: 10px;
+    margin-bottom: 5px;
+    justify-content: center;
+    font-family:  Arial, sans-serif;
+    margin-top: 10px;
+}
+.aboutMe-profile ul li{
+    
+    justify-content: center;
+    font-family:  Arial, sans-serif;
+    list-style: circle  ;
+     
+    
+}
+
+.AboutMePicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 450px;
+    width: 400px;
+    margin: 0 0 100px 0;
+    
+  }
+  .abouMe-picture-background {
+    
+    background-image: url("../../assets/Home/nesrine.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2%;
+    
+  }
+  .abouMe-picture-background:hover {
+    transform: scale(1.09);
+    transition: 1s ease-out;
+  }
+  .profile-options{
+    margin-top: 25px;
+   
+  }
+  .profile-options .highlighted-btn {
+    margin: 0 0 0 25px;
+  }
+  .profile-options .highlighted-btn:hover {
+    margin: 0 0 0 25px;
+    background-color: antiquewhite;
+    color: black;
+  }
+  @media screen and (max-width: 810px) {
+    .aboutMe-details {
+        display: flex;
+        flex-direction: column;
+        
+      }
+      
+    }
